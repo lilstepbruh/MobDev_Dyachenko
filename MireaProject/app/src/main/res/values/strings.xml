@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MireaProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="galaxy_s23_ultra_6_8_amoled_120_200_3_10_10_10_12_qualcomm_snapdragon_8_gen2_c_8_12_256_1_5000_45_234_15_4_5_esim_2_dex_uwb_110_000">Характеристики Galaxy S23 Ultra Экран 6,8 дюйма, AMOLED, 120 Гц Камера Основная — 200 Мп с оптической стабилизацией, зум 3× — 10 Мп с оптической стабилизацией, зум 10× — 10 Мп с оптической стабилизацией, сверхширокоугольная — 12 Мп Процессор Qualcomm Snapdragon 8 Gen2 c разгоном с завода Оперативная память 8—12 Гб Постоянная память 256 Гб — 1 Тб Батарея 5000 мА·ч, быстрая зарядка 45 Вт Вес 234 г Особенности Защита от воды и пыли, беспроводная зарядка 15 Вт, обратная беспроводная зарядка 4,5 Вт, поддержка eSIM, 2 слота для симкарт, режим настольного компьютера Dex, поисковая система UWB Цвета Черный, бежевый, лавандовый, зеленый Цена От 110 000 ₽ в крупной рознице</string>
+</resources>
