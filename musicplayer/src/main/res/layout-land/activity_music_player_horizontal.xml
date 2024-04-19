@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Музыкальный плеер"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center" />
+
+    <!-- Дисплей информации о треке -->
+    <TextView
+        android:id="@+id/textViewTrackInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Текущий трек: Название трека - Исполнитель"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp" />
+
+    <!-- Кнопки управления воспроизведением -->
+
+    <ImageButton
+        android:id="@+id/imageButtonPlayPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:contentDescription="Play/Pause"
+        android:src="@drawable/ic_play"
+        app:layout_constraintBottom_toBottomOf="@id/imageButtonPrevious"
+        app:layout_constraintStart_toEndOf="@id/imageButtonPrevious"
+        app:layout_constraintTop_toTopOf="@id/imageButtonPrevious"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Previous Track"
+        android:src="@drawable/ic_previous"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTrackInfo" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:contentDescription="Next Track"
+        android:src="@drawable/ic_next"
+        app:layout_constraintBottom_toBottomOf="@id/imageButtonPrevious"
+        app:layout_constraintStart_toEndOf="@id/imageButtonPlayPause"
+        app:layout_constraintTop_toTopOf="@id/imageButtonPrevious"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
