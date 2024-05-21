@@ -7,16 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/top_panel"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1.5"
-        android:gravity="center"
-        android:text="Firebase"
-        android:textAlignment="center"
-        android:textSize="64dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
