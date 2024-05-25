@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="ru.dyachenkoas.mireaproject.Maps"
+        android:label="Request"
+        tools:layout="@layout/map_main" />
+    <fragment
+        android:id="@+id/requestFragment"
+        android:name="ru.dyachenkoas.mireaproject.Request"
+        android:label="Request"
+        tools:layout="@layout/request_main" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.dyachenkoas.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="ru.dyachenkoas.mireaproject.DataFragment"
+        android:label="Phone"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="ru.dyachenkoas.mireaproject.WebViewFragment"
+        android:label="WebPhone"
+        tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/multiappFragment"
+        android:name="ru.dyachenkoas.mireaproject.MultiApp"
+        android:label="WebPhone"
+        tools:layout="@layout/multiapp_main" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.dyachenkoas.mireaproject.Profile"
+        tools:layout="@layout/profile_main" />
+
+    <fragment
+        android:id="@+id/convertFragment"
+        android:name="ru.dyachenkoas.mireaproject.WorkWithFile"
+        tools:layout="@layout/workwithfile_main" />
+    <fragment
+        android:id="@+id/backactFragment"
+        android:name="ru.dyachenkoas.mireaproject.BackgrActivity"
+        tools:layout="@layout/fragment_background_activity" />
+
+
+</navigation>

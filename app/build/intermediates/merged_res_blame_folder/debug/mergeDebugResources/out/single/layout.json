@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/fragment_slideshow.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/fragment_background_activity.xml",
+        "source": "ru.dyachenkoas.mireaproject.app-main-62:/layout/fragment_background_activity.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/map_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/map_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/profile_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/profile_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/app_bar_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/request_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/request_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/content_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/login_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/login_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/fragment_data.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/fragment_data.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/fragment_background_activity.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/fragment_background_activity.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/workwithfile_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/workwithfile_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/fragment_home.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/activity_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/multiapp_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/multiapp_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/nav_header_main.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/fragment_web_view.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/fragment_web_view.xml"
+    },
+    {
+        "merged": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-mergeDebugResources-59:/layout/fragment_gallery.xml",
+        "source": "/home/lil-stepbruh/.gradle/daemon/8.4/ru.dyachenkoas.mireaproject.app-main-62:/layout/fragment_gallery.xml"
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.dyachenkoas.mireaproject.app-mergeDebugResources-58:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/lil-stepbruh/.gradle/caches/transforms-3/776821c2fb2802c7d8fcd6d7201f797b/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

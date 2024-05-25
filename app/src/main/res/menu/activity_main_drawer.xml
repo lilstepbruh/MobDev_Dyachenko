@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/backactFragment"
+            android:title="Bckgrnd Activity" />
+        <item
+            android:id="@+id/mapsFragment"
+            android:title="Maps" />
+        <item
+            android:id="@+id/requestFragment"
+            android:title="Request" />
+        <item
+            android:id="@+id/convertFragment"
+            android:title="Convert File" />
+        <item
+            android:id="@+id/profileFragment"
+            android:title="Profile" />
+        <item
+            android:id="@+id/multiappFragment"
+            android:title="MultiApp" />
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/dataFragment"
+            android:title="Phone"/>
+
+        <item
+            android:id="@+id/webViewFragment"
+            android:title="WebPhone"/>
+    </group>
+</menu>

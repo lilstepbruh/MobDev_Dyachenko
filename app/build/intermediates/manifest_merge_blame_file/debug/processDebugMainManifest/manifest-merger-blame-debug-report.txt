@@ -1,0 +1,612 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.dyachenkoas.mireaproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:4:5-70
+11-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:4:22-68
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:5:5-65
+12-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:6:5-81
+13-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:7:5-66
+14-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+15-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:26:22-76
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+16-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/lil-stepbruh/.gradle/caches/transforms-3/204df5f7dd6da057ddfffa6a83ea6a85/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+16-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/lil-stepbruh/.gradle/caches/transforms-3/204df5f7dd6da057ddfffa6a83ea6a85/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+17-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:22-65
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+18-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:22-78
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+19-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:22-74
+20
+21    <permission
+21-->[androidx.core:core:1.13.0] /home/lil-stepbruh/.gradle/caches/transforms-3/1d0a0762fcdb96dfd0f2d006efbbc019/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+22        android:name="ru.dyachenkoas.mireaproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.13.0] /home/lil-stepbruh/.gradle/caches/transforms-3/1d0a0762fcdb96dfd0f2d006efbbc019/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.13.0] /home/lil-stepbruh/.gradle/caches/transforms-3/1d0a0762fcdb96dfd0f2d006efbbc019/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="ru.dyachenkoas.mireaproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.13.0] /home/lil-stepbruh/.gradle/caches/transforms-3/1d0a0762fcdb96dfd0f2d006efbbc019/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.13.0] /home/lil-stepbruh/.gradle/caches/transforms-3/1d0a0762fcdb96dfd0f2d006efbbc019/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+26
+27    <supports-screens
+27-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:9:5-12:40
+28        android:anyDensity="true"
+28-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:10:9-34
+29        android:largeScreens="true"
+29-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:11:9-36
+30        android:normalScreens="true" />
+30-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:12:9-37
+31
+32    <uses-feature
+32-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:14:5-16:36
+33        android:name="android.hardware.location.network"
+33-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:15:9-57
+34        android:required="false" />
+34-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:16:9-33
+35    <uses-feature
+35-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:17:5-19:36
+36        android:name="android.hardware.location.gps"
+36-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:18:9-53
+37        android:required="false" />
+37-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:19:9-33
+38    <uses-feature
+38-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:20:5-22:36
+39        android:name="android.hardware.telephony"
+39-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:21:9-50
+40        android:required="false" />
+40-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:22:9-33
+41    <uses-feature
+41-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:23:5-25:36
+42        android:name="android.hardware.wifi"
+42-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:24:9-45
+43        android:required="false" />
+43-->[org.osmdroid:osmdroid-android:6.1.16] /home/lil-stepbruh/.gradle/caches/transforms-3/00a28464b28fa14fb599db20d2eff90e/transformed/osmdroid-android-6.1.16/AndroidManifest.xml:25:9-33
+44
+45    <application
+45-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:9:5-45:19
+46        android:allowBackup="true"
+46-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:10:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.0] /home/lil-stepbruh/.gradle/caches/transforms-3/1d0a0762fcdb96dfd0f2d006efbbc019/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+48        android:dataExtractionRules="@xml/data_extraction_rules"
+48-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:11:9-65
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:fullBackupContent="@xml/backup_rules"
+51-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:12:9-54
+52        android:icon="@mipmap/ic_launcher"
+52-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:13:9-43
+53        android:label="@string/app_name"
+53-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:14:9-41
+54        android:roundIcon="@mipmap/ic_launcher_round"
+54-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:15:9-54
+55        android:supportsRtl="true"
+55-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:16:9-35
+56        android:testOnly="true"
+57        android:theme="@style/Theme.MireaProject" >
+57-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:17:9-50
+58        <provider
+58-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:20:9-28:20
+59            android:name="androidx.core.content.FileProvider"
+59-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:21:13-62
+60            android:authorities="ru.mirea.dyachenkoas.mireaproject.fileprovider2"
+60-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:22:13-82
+61            android:exported="false"
+61-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:23:13-37
+62            android:grantUriPermissions="true" >
+62-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:24:13-47
+63            <meta-data
+63-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:25:13-27:49
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:26:17-67
+65                android:resource="@xml/paths" />
+65-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:27:17-46
+66        </provider>
+67
+68        <activity
+68-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:30:9-39:20
+69            android:name="ru.dyachenkoas.mireaproject.Login"
+69-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:31:13-34
+70            android:exported="true"
+70-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:32:13-36
+71            android:label="@string/app_name"
+71-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:33:13-45
+72            android:theme="@style/Theme.MireaProject.NoActionBar" >
+72-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:34:13-66
+73            <intent-filter>
+73-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:35:13-38:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:36:17-69
+74-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:36:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:37:17-77
+76-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:37:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:40:9-43:69
+80            android:name="ru.dyachenkoas.mireaproject.MainActivity"
+80-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:41:13-41
+81            android:label="@string/app_name"
+81-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:42:13-45
+82            android:theme="@style/Theme.MireaProject.NoActionBar" />
+82-->/home/lil-stepbruh/Рабочий стол/MireaProject/app/src/main/AndroidManifest.xml:43:13-66
+83        <activity
+83-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+84            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+84-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+85            android:excludeFromRecents="true"
+85-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+86            android:exported="true"
+86-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+87            android:launchMode="singleTask"
+87-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+88-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+89            <intent-filter>
+89-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+90                <action android:name="android.intent.action.VIEW" />
+90-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+90-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+92-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+93                <category android:name="android.intent.category.BROWSABLE" />
+93-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+93-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+94
+95                <data
+95-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+96                    android:host="firebase.auth"
+96-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+97                    android:path="/"
+97-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+98                    android:scheme="genericidp" />
+98-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+102            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+102-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+103            android:excludeFromRecents="true"
+103-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+104            android:exported="true"
+104-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+105            android:launchMode="singleTask"
+105-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+106-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+107            <intent-filter>
+107-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+108                <action android:name="android.intent.action.VIEW" />
+108-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+108-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+110-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+111                <category android:name="android.intent.category.BROWSABLE" />
+111-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+111-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+112
+113                <data
+113-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+114                    android:host="firebase.auth"
+114-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+115                    android:path="/"
+115-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+116                    android:scheme="recaptcha" />
+116-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+117            </intent-filter>
+118        </activity>
+119
+120        <service
+120-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+121            android:name="com.google.firebase.components.ComponentDiscoveryService"
+121-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:67:13-84
+122            android:directBootAware="true"
+122-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+123            android:exported="false" >
+123-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:68:13-37
+124            <meta-data
+124-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+125                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+125-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-auth:23.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/d0cd3ae3d7b72046e7972eaf71c978ab/transformed/firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/246ee0fec3a6ce4f7e9646dcf36c89c0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+128                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+128-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/246ee0fec3a6ce4f7e9646dcf36c89c0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/246ee0fec3a6ce4f7e9646dcf36c89c0/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+131                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+131-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+133        </service>
+134        <service
+134-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+135            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+135-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+136            android:enabled="true"
+136-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+137            android:exported="false" >
+137-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+138            <meta-data
+138-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+139                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+139-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+140                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+140-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+141        </service>
+142
+143        <activity
+143-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+144            android:name="androidx.credentials.playservices.HiddenActivity"
+144-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+145            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+145-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+146            android:enabled="true"
+146-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+147            android:exported="false"
+147-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+148            android:fitsSystemWindows="true"
+148-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+149            android:theme="@style/Theme.Hidden" >
+149-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/lil-stepbruh/.gradle/caches/transforms-3/eaa460f09e528df5a8efc6d707380b8c/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+150        </activity>
+151        <activity
+151-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+152            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+152-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+153            android:excludeFromRecents="true"
+153-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+156        <!--
+157            Service handling Google Sign-In user revocation. For apps that do not integrate with
+158            Google Sign-In, this service will never be started.
+159        -->
+160        <service
+160-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+161            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+161-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+162            android:exported="true"
+162-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+163            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+163-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+164            android:visibleToInstantApps="true" />
+164-->[com.google.android.gms:play-services-auth:20.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/76693e892af2c1b90e36d528d012417a/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+165
+166        <provider
+166-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+167            android:name="com.google.firebase.provider.FirebaseInitProvider"
+167-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+168            android:authorities="ru.dyachenkoas.mireaproject.firebaseinitprovider"
+168-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+169            android:directBootAware="true"
+169-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+170            android:exported="false"
+170-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+171            android:initOrder="100" />
+171-->[com.google.firebase:firebase-common:21.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/cdbd0bce56fc21d5a47665966e3bd418/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+172
+173        <activity
+173-->[com.google.android.gms:play-services-base:18.0.1] /home/lil-stepbruh/.gradle/caches/transforms-3/b47d90c28e6b93ff3653b35d2e35cbcc/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+174            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+174-->[com.google.android.gms:play-services-base:18.0.1] /home/lil-stepbruh/.gradle/caches/transforms-3/b47d90c28e6b93ff3653b35d2e35cbcc/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-base:18.0.1] /home/lil-stepbruh/.gradle/caches/transforms-3/b47d90c28e6b93ff3653b35d2e35cbcc/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+176-->[com.google.android.gms:play-services-base:18.0.1] /home/lil-stepbruh/.gradle/caches/transforms-3/b47d90c28e6b93ff3653b35d2e35cbcc/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+177
+178        <provider
+178-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+179            android:name="androidx.startup.InitializationProvider"
+179-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
+180            android:authorities="ru.dyachenkoas.mireaproject.androidx-startup"
+180-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
+181            android:exported="false" >
+181-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
+182            <meta-data
+182-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+183                android:name="androidx.work.WorkManagerInitializer"
+183-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
+184                android:value="androidx.startup" />
+184-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
+185            <meta-data
+185-->[androidx.emoji2:emoji2:1.2.0] /home/lil-stepbruh/.gradle/caches/transforms-3/bf9874e537fbec11843f77fa8ad4d97e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+186                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+186-->[androidx.emoji2:emoji2:1.2.0] /home/lil-stepbruh/.gradle/caches/transforms-3/bf9874e537fbec11843f77fa8ad4d97e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+187                android:value="androidx.startup" />
+187-->[androidx.emoji2:emoji2:1.2.0] /home/lil-stepbruh/.gradle/caches/transforms-3/bf9874e537fbec11843f77fa8ad4d97e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+188            <meta-data
+188-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/f903ee326100a348e6a851942835632e/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+189                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+189-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/f903ee326100a348e6a851942835632e/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+190                android:value="androidx.startup" />
+190-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/lil-stepbruh/.gradle/caches/transforms-3/f903ee326100a348e6a851942835632e/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+191            <meta-data
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+192                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+193                android:value="androidx.startup" />
+193-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+194        </provider>
+195
+196        <service
+196-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+197            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+197-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+198            android:directBootAware="false"
+198-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+199            android:enabled="@bool/enable_system_alarm_service_default"
+199-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+200            android:exported="false" />
+200-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+201        <service
+201-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+202            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+202-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+203            android:directBootAware="false"
+203-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+204            android:enabled="@bool/enable_system_job_service_default"
+204-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+205            android:exported="true"
+205-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+206            android:permission="android.permission.BIND_JOB_SERVICE" />
+206-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+207        <service
+207-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+208            android:name="androidx.work.impl.foreground.SystemForegroundService"
+208-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+209            android:directBootAware="false"
+209-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+210            android:enabled="@bool/enable_system_foreground_service_default"
+210-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+211            android:exported="false" />
+211-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+212
+213        <receiver
+213-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+214            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+214-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+215            android:directBootAware="false"
+215-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+216            android:enabled="true"
+216-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+217            android:exported="false" />
+217-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+218        <receiver
+218-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+219            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+219-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+220            android:directBootAware="false"
+220-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+221            android:enabled="false"
+221-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+222            android:exported="false" >
+222-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+223            <intent-filter>
+223-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+224                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+224-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+224-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+225                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+225-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+225-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+226            </intent-filter>
+227        </receiver>
+228        <receiver
+228-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+229            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+229-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+230            android:directBootAware="false"
+230-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+231            android:enabled="false"
+231-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+232            android:exported="false" >
+232-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+233            <intent-filter>
+233-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+234                <action android:name="android.intent.action.BATTERY_OKAY" />
+234-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+234-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+235                <action android:name="android.intent.action.BATTERY_LOW" />
+235-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+235-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+236            </intent-filter>
+237        </receiver>
+238        <receiver
+238-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+239            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+239-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+240            android:directBootAware="false"
+240-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+241            android:enabled="false"
+241-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+242            android:exported="false" >
+242-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+243            <intent-filter>
+243-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+244                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+244-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+244-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+245                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+245-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+245-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+246            </intent-filter>
+247        </receiver>
+248        <receiver
+248-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+249            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+249-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+251            android:enabled="false"
+251-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+252            android:exported="false" >
+252-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+253            <intent-filter>
+253-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+254                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+254-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+254-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+255            </intent-filter>
+256        </receiver>
+257        <receiver
+257-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+258            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+258-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+259            android:directBootAware="false"
+259-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+260            android:enabled="false"
+260-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+261            android:exported="false" >
+261-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+262            <intent-filter>
+262-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+263                <action android:name="android.intent.action.BOOT_COMPLETED" />
+263-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:17-79
+263-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:117:25-76
+264                <action android:name="android.intent.action.TIME_SET" />
+264-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+264-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+265                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+265-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+265-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+266            </intent-filter>
+267        </receiver>
+268        <receiver
+268-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+269            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+269-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+270            android:directBootAware="false"
+270-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+271            android:enabled="@bool/enable_system_alarm_service_default"
+271-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+272            android:exported="false" >
+272-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+273            <intent-filter>
+273-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+274                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+274-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+274-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+275            </intent-filter>
+276        </receiver>
+277        <receiver
+277-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+278            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+278-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+279            android:directBootAware="false"
+279-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+280            android:enabled="true"
+280-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+281            android:exported="true"
+281-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+282            android:permission="android.permission.DUMP" >
+282-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+283            <intent-filter>
+283-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+284                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+284-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+284-->[androidx.work:work-runtime:2.9.0] /home/lil-stepbruh/.gradle/caches/transforms-3/753b20d08f9243b0974d96d68a3a0efd/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+285            </intent-filter>
+286        </receiver>
+287
+288        <uses-library
+288-->[androidx.window:window:1.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/21bfe615e8d62e1d93f739a764506aa6/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+289            android:name="androidx.window.extensions"
+289-->[androidx.window:window:1.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/21bfe615e8d62e1d93f739a764506aa6/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+290            android:required="false" />
+290-->[androidx.window:window:1.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/21bfe615e8d62e1d93f739a764506aa6/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+291        <uses-library
+291-->[androidx.window:window:1.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/21bfe615e8d62e1d93f739a764506aa6/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+292            android:name="androidx.window.sidecar"
+292-->[androidx.window:window:1.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/21bfe615e8d62e1d93f739a764506aa6/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+293            android:required="false" />
+293-->[androidx.window:window:1.0.0] /home/lil-stepbruh/.gradle/caches/transforms-3/21bfe615e8d62e1d93f739a764506aa6/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+294
+295        <meta-data
+295-->[com.google.android.gms:play-services-basement:18.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/60e89b84a1d4691ea58863b633cbddb8/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+296            android:name="com.google.android.gms.version"
+296-->[com.google.android.gms:play-services-basement:18.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/60e89b84a1d4691ea58863b633cbddb8/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+297            android:value="@integer/google_play_services_version" />
+297-->[com.google.android.gms:play-services-basement:18.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/60e89b84a1d4691ea58863b633cbddb8/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+298
+299        <service
+299-->[androidx.room:room-runtime:2.5.0] /home/lil-stepbruh/.gradle/caches/transforms-3/69d923a83f818f666f5e3430c3269301/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+300            android:name="androidx.room.MultiInstanceInvalidationService"
+300-->[androidx.room:room-runtime:2.5.0] /home/lil-stepbruh/.gradle/caches/transforms-3/69d923a83f818f666f5e3430c3269301/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+301            android:directBootAware="true"
+301-->[androidx.room:room-runtime:2.5.0] /home/lil-stepbruh/.gradle/caches/transforms-3/69d923a83f818f666f5e3430c3269301/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+302            android:exported="false" />
+302-->[androidx.room:room-runtime:2.5.0] /home/lil-stepbruh/.gradle/caches/transforms-3/69d923a83f818f666f5e3430c3269301/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+303
+304        <receiver
+304-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+305            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+305-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+306            android:directBootAware="false"
+306-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+307            android:enabled="true"
+307-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+308            android:exported="true"
+308-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+309            android:permission="android.permission.DUMP" >
+309-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+310            <intent-filter>
+310-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+311                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+311-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+311-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+312            </intent-filter>
+313            <intent-filter>
+313-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+314                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+314-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+314-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+315            </intent-filter>
+316            <intent-filter>
+316-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+317                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+317-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+317-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+318            </intent-filter>
+319            <intent-filter>
+319-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+320                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+320-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+320-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/lil-stepbruh/.gradle/caches/transforms-3/301bcdc79f34280c3dd24077615dbb6e/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+321            </intent-filter>
+322        </receiver>
+323    </application>
+324
+325</manifest>
